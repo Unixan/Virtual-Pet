@@ -17,10 +17,6 @@
                 {
                     case "katt":
                         {
-                            var newCat = new Cat();
-                            newCat.SetName("Mons");
-                            Console.WriteLine(newCat.Name);
-
                             break;
                         }
                     case "hund":

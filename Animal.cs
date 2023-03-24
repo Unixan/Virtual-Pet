@@ -3,11 +3,11 @@
     internal abstract class Animal
     {
         protected string Name;
-        internal string FavFood;
+        protected string FavFood;
 
-        public Animal(string favFood)
+        public Animal(string food)
         {
-            FavFood = favFood;
+            FavFood = food;
         }
         public void Feed(string food)
         {
