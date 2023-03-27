@@ -2,10 +2,12 @@
 {
     internal class Elephant : Animal
     {
-        public Elephant(): base("peanøtter")
+        public Elephant(string name) : base("peanøtter")
         {
+            Name = name;
+            Race = "Elefant";
         }
 
-        
+
     }
 }

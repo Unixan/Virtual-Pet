@@ -2,16 +2,11 @@
 {
     internal class Cat : Animal
     {
-        
-        public Cat(): base("fisk")
-        {
-           
-        }
-
-        public void SetName(string name)
+        public Cat(string name) : base("fisk")
         {
             Name = name;
+            Race = "Katt";
         }
-        
     }
+
 }

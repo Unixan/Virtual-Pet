@@ -8,9 +8,9 @@ namespace Virtual_Pet
 {
     internal class Common
     {
-        public static void Pause(string msg)
+        public static void Pause(string msg = null)
         {
-            if (msg != "") Console.WriteLine(msg + "\nTrykk en tast for å fortsette");
+            if (msg == null) Console.WriteLine(msg + "\nTrykk en tast for å fortsette");
             else Console.WriteLine("Trykk en tast for å fortsette");
             Console.ReadLine();
         }

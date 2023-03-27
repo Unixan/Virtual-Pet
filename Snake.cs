@@ -2,10 +2,12 @@
 {
     internal class Snake : Animal
     {
-        public Snake():base("rotte")
+        public Snake(string name) : base("rotte")
         {
+            Name = name;
+            Race = "Slange";
         }
 
-        
+
     }
 }

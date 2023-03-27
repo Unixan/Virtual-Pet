@@ -2,11 +2,12 @@
 {
     internal class Dog : Animal
     {
-        public Dog(): base("bein")
+        public Dog(string name) : base("bein")
         {
-            
+            Name = name;
+            Race = "Hund";
         }
 
-        
+
     }
 }
